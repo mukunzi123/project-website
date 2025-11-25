@@ -1,0 +1,340 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fabien</title>
+    <link rel="stylesheet" href="oshakul.css">
+  <script type="text/javascript" src="oshakul.js"></script>
+</head>
+<body>
+<!-- Firebase App (core) -->
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js"></script>
+<!-- Firebase Auth -->
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js"></script>
+<!-- Firebase Firestore -->
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js"></script>
+
+   <header class="header">
+
+   </a href="#home" class="log">
+	Fabien<span>Flims.com</span>
+<a/> 
+<a href="https://wa.me/250794497850" class="whatsapp" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" 
+       alt="WhatsApp" style="width:22px; margin-right:6px;">WhatsApp
+  0794497850
+</a>
+
+</a href="https://wa.me/1234567890" class="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+     <br><br>
+<i class="bx bx-menu" id="menu-icon"></i>
+<nav class="navbar">
+</nav>
+
+</button>
+
+</header>
+    <br><br><br><br>
+  <div class="movie-hero">
+    <div class="movie-card center" onclick="openVideo('What Happened To Monday 2020.mp4')">
+        <img src="1.png" alt="">
+        <div class="play-btn">▶</div>
+    </div>
+
+    <div class="movie-card side left" onclick="openVideo('What Happened To Monday 2020.mp4')">
+        <img src="1.png" alt="">
+        <div class="play-btn small">▶</div>
+    </div>
+
+    <div class="movie-card side right" onclick="openVideo('What Happened To Monday 2020.mp4')">
+        <img src="1.png" alt="">
+        <div class="play-btn small">▶</div>
+    </div>
+</div>
+
+
+<div class="courses-container">
+    <div class="course-card"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+        <video src="High Forces A.mp4"controls></video>
+        <p class="courses-p">High Forces A<br>
+                     <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+        </p>
+
+    </div>
+    <div class="course-carda"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+      <video src="High Forces B.mp4"controls></video><br>
+        <p class="courses-p">High Forces B<br>
+                     <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+        </p>
+  
+    </div> <div class="course-carda"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+      <video src="What Happened To Monday 2020.mp4"controls></video><br>
+        <p class="courses-p">LUCY_by Sankara<br>
+                    <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+        </p>
+  
+    </div>
+     <div class="course-carda"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+      <video src="BLACK FOX COMANDO.mp4"controls></video><br>
+        <p class="courses-p">BLACK FOX COMANDO<br>
+                    <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>        </p>
+  
+    </div>
+     <div class="course-carda"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+      <video src="BABY JOHN A.mp4"controls></video><br>
+        <p class="courses-p">BABY JOHN A<br>
+                    <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+        </p>
+  
+    </div>
+     <div class="course-carda"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+      <video src="BABY JOHN B.mp4"controls></video><br>
+        <p class="courses-p"> BABY JOHN B <br>
+                    <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+        </p>
+  
+    </div>
+     <div class="course-carda"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+      <video src="BLACK FOX COMANDO.mp4"controls></video><br>
+        <p class="courses-p"> BLACK FOX COMANDO <br>
+                    <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+        </p>
+  
+    </div>
+     <div class="course-carda"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+      <video src="BLACK FOX COMANDO.mp4"controls></video><br>
+        <p class="courses-p">BLACK FOX COMANDO<br>
+                    <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+        </p>
+  
+    </div>
+     <div class="course-carda"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+      <video src="DEATH GAME A.mp4"controls></video><br>
+        <p class="courses-p">DEATH GAME A<br>
+                     <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+        </p>
+  
+    </div>
+    <div class="course-cardb"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+  <video src="DEATH GAME B.mp4"controls></video><br>
+        <p class="courses-p">DEATH GAME B<br>
+                    <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+        </p>
+    </div>
+    <div class="course-cardc"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+        <video src="BLACK FOX COMANDO.mp4"controls></video><br>
+        <p class="courses-p"> BLACK FOX COMANDO<br>
+                    <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>      </p>
+    </div>
+    <div class="course-cardd"> 
+        <h3><span style="color: rgb(21, 220, 120);">Fabien</span>Flims.com</h3>
+        <video src="best life (3).mp4"controls></video><br>
+        <p class="courses-p">best life (3)<br>
+                 <button class="butt" onclick="playMovie()">FULL MOVIE</button>
+    <button class="butt" onclick="downloadMovie()">DOWNLOAD</button>
+    </div>
+</div>
+<div class="comment-section">
+    <textarea id="commentInput" placeholder="Plase enter your comment..."></textarea>
+    <button onclick="sendComment()">COMMENT</button>
+</div>
+
+  <!-- Buttons -->
+<div class="auth-buttons">
+  <button id="loginBtn">Login</button>
+  <button id="signupBtn">Signup</button>
+</div>
+
+<!-- Modal Form -->
+<div id="authModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <h3 id="modalTitle">Login</h3>
+
+    <form id="authForm">
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <input type="text" id="displayName" placeholder="Names (Signup only)">
+      <button type="submit" id="submitAuth">Submit</button>
+    </form>
+
+    <p id="toggleText">Nta konti? <a href="#" id="toggleAuth">create account</a></p>
+  </div>
+</div>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+import { getFirestore, doc, setDoc } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore.js";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
+
+// Firebase Config
+const firebaseConfig = {
+  apiKey: "AIzaSyCBvCU8jn_MQH9XDaoG3Pfk4Xr-61ZZkhQ",
+  authDomain: "fabien-flims.firebaseapp.com",
+  projectId: "fabien-flims",
+  storageBucket: "fabien-flims.appspot.com",
+  messagingSenderId: "624637679008",
+  appId: "1:624637679008:web:feba79bfe196293b0880c5"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+const auth = getAuth(app);
+
+// ---------------- Hide website until login ----------------
+document.body.style.display = "none"; // hide everything initially
+
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    document.body.style.display = "block"; // show website
+    authModal.style.display = "none";
+  } else {
+    document.body.style.display = "none"; 
+    showAuthModal();
+  }
+});
+
+// ------- Signup Function -------
+async function signup(email, password, displayName) {
+  try {
+    const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+    const user = userCredential.user;
+
+    await setDoc(doc(db, "users", user.uid), { displayName, email });
+
+    alert("Kwiyandikisha byagenze neza! Welcome.");
+    authModal.style.display = "none";
+    document.body.style.display = "block";
+
+  } catch (error) {
+    if (error.code === "auth/email-already-in-use") {
+      alert("Email imaze kwiyandikishwa. Kora Login.");
+    }
+    else if (error.code === "auth/invalid-email") {
+      alert("Andika email imeze neza.");
+    }
+    else if (error.code === "auth/weak-password") {
+      alert("Password igomba kuba nibura characters 6.");
+    }
+    else {
+      alert("Habaye ikibazo. Ongera ugerageze.");
+    }
+  }
+}
+
+// ------- Login Function -------
+async function login(email, password) {
+  try {
+    await signInWithEmailAndPassword(auth, email, password);
+    alert("Login successful!");
+    authModal.style.display = "none";
+    document.body.style.display = "block";
+
+  } catch (error) {
+    if (error.code === "auth/invalid-email") {
+      alert("Email siyo.");
+    }
+    else if (error.code === "auth/user-not-found") {
+      alert("Nta konti ibonetse kuri iyo email. Kora Signup.");
+    }
+    else if (error.code === "auth/wrong-password") {
+      alert("Password siyo. Ongera ugerageze.");
+    }
+    else {
+      alert("Habaye ikibazo. Ongera ugerageze.");
+    }
+  }
+}
+
+// ------- Logout Function -------
+async function logout() {
+  await signOut(auth);
+  document.body.style.display = "none";
+  showAuthModal();
+}
+
+// ------- Modal Controls -------
+const authModal = document.getElementById("authModal");
+const loginBtn = document.getElementById("loginBtn");
+const signupBtn = document.getElementById("signupBtn");
+const closeModal = authModal.querySelector(".close");
+const apiKey = process.env.FIREBASE_API_KEY;
+
+
+loginBtn.addEventListener("click", () => setModalMode("Login"));
+signupBtn.addEventListener("click", () => setModalMode("Signup"));
+closeModal.addEventListener("click", showAuthModal);
+
+function showAuthModal() {
+  authModal.style.display = "block";
+  setModalMode("Login");
+}
+
+window.addEventListener("click", (e) => {
+  if (e.target === authModal) authModal.style.display = "block"; // disable closing modal by clicking outside
+});
+
+function setModalMode(mode) {
+  const isLogin = mode === "Login";
+  document.getElementById("modalTitle").textContent = mode;
+  document.getElementById("submitAuth").textContent = mode;
+  document.getElementById("displayName").style.display = isLogin ? "none" : "block";
+  document.getElementById("toggleText").innerHTML = isLogin
+    ? 'Nta konti? <a href="#" id="toggleAuth">Create account</a>'
+    : 'Ufite konti? <a href="#" id="toggleAuth">Login</a>';
+}
+
+// ------- Toggle Login/Signup -------
+document.getElementById("toggleText").addEventListener("click", (e) => {
+  if (e.target && e.target.id === "toggleAuth") {
+    e.preventDefault();
+    const isLogin = document.getElementById("modalTitle").textContent === "Login";
+    setModalMode(isLogin ? "Signup" : "Login");
+  }
+});
+
+// ------- Form Submit -------
+const authForm = document.getElementById("authForm");
+authForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+  const displayName = document.getElementById("displayName").value;
+  const isSignup = document.getElementById("modalTitle").textContent === "Signup";
+
+  if(isSignup) {
+    await signup(email, password, displayName);
+  } else {
+    await login(email, password);
+  }
+
+  authForm.reset();
+});
+
+</script>
+
+</body></html>
